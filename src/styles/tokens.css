@@ -1,0 +1,102 @@
+/*
+ * Design tokens — first draft (see docs/ROADMAP.md, "Design system").
+ * Concept: "tiza" = chalk. Light theme is paper with blackboard-green ink;
+ * dark theme is the blackboard itself with chalk-white text.
+ * Components only use these variables, never raw colors.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Palette */
+  --bg: #f6f2e9;
+  --surface: #fffdf8;
+  --surface-2: #efe9dc;
+  --text: #1c2a26;
+  --text-muted: #5b6863;
+  --border: #ddd5c4;
+  --accent: #1f5c4d;
+  --accent-strong: #174539;
+  --accent-contrast: #fdfaf2;
+  --accent-soft: #dcebe4;
+  --highlight: #e8b04a;
+
+  --ok: #2f7a4f;
+  --ok-bg: #e2f1e6;
+  --bad: #b3432f;
+  --bad-bg: #f8e3dd;
+
+  --real: #7a5a12;
+  --real-bg: #f6e7c2;
+  --ai: #5b4a9e;
+  --ai-bg: #e8e3f7;
+
+  /* Typography */
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* Shape and rhythm */
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 16px;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --shadow: 0 1px 2px rgb(28 42 38 / 6%), 0 4px 16px rgb(28 42 38 / 6%);
+  --container: 52rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #15201d;
+    --surface: #1c2a26;
+    --surface-2: #243530;
+    --text: #ece8dc;
+    --text-muted: #a3aea9;
+    --border: #33463f;
+    --accent: #8fd1b8;
+    --accent-strong: #b3e3cf;
+    --accent-contrast: #10201b;
+    --accent-soft: #23423a;
+    --highlight: #f0c46a;
+    --ok: #7fd49b;
+    --ok-bg: #1f3a2b;
+    --bad: #f09a86;
+    --bad-bg: #432822;
+    --real: #f0cc7a;
+    --real-bg: #3d321a;
+    --ai: #c3b5f5;
+    --ai-bg: #302a4d;
+    --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 6px 20px rgb(0 0 0 / 25%);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #15201d;
+  --surface: #1c2a26;
+  --surface-2: #243530;
+  --text: #ece8dc;
+  --text-muted: #a3aea9;
+  --border: #33463f;
+  --accent: #8fd1b8;
+  --accent-strong: #b3e3cf;
+  --accent-contrast: #10201b;
+  --accent-soft: #23423a;
+  --highlight: #f0c46a;
+  --ok: #7fd49b;
+  --ok-bg: #1f3a2b;
+  --bad: #f09a86;
+  --bad-bg: #432822;
+  --real: #f0cc7a;
+  --real-bg: #3d321a;
+  --ai: #c3b5f5;
+  --ai-bg: #302a4d;
+  --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 6px 20px rgb(0 0 0 / 25%);
+}

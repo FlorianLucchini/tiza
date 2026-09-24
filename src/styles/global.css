@@ -141,6 +141,12 @@ ul {
   box-shadow: 3px 0 0 var(--highlight) inset;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
 .icon-button {
   display: inline-grid;
   place-items: center;
@@ -151,6 +157,11 @@ ul {
   background: var(--surface);
   color: var(--text);
   cursor: pointer;
+  text-decoration: none;
+}
+
+.icon-button:hover {
+  border-color: var(--accent);
 }
 
 .site-footer {
@@ -368,10 +379,6 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   gap: var(--space-3) var(--space-4);
-}
-
-.references ul {
-  padding-left: 1.2rem;
 }
 
 /* Badges -------------------------------------------------------------------- */

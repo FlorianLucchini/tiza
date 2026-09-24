@@ -163,25 +163,6 @@ function Setup({
           <span className="muted small">Atajos: 1–9 elige opción · Enter comprueba y avanza</span>
         </div>
       </div>
-
-      {quiz.references && quiz.references.length > 0 && (
-        <div className="references">
-          <h2 className="section-title">Bibliografía y material</h2>
-          <ul>
-            {quiz.references.map((r) => (
-              <li key={r.label}>
-                {r.url ? (
-                  <a href={r.url} target="_blank" rel="noreferrer">
-                    {r.label}
-                  </a>
-                ) : (
-                  r.label
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </section>
   )
 }

@@ -17,7 +17,7 @@ Principios que salen de lo que pidió Florian:
   tales; las generadas con IA también, sin excepción.
 - **Por dificultad**: poder ir de lo básico a lo avanzado, sin que el orden dependa de si la
   pregunta es real o generada.
-- **Con bibliografía**: cada cuestionario enlaza al material de donde sale.
+- **Con bibliografía**: cada cuestionario enlaza al material de donde sale. *(Sacada por ahora, a pedido de Florian, 2026-09-24.)*
 - **Simple ahora, escalable después**: nada de complejidad que no haga falta hoy, pero sin
   cerrarle la puerta a una base de datos, un evaluador de código, etc.
 
@@ -51,3 +51,10 @@ Principios que salen de lo que pidió Florian:
   **público** ("no pasa nada"), lo que habilita GitHub Pages gratis.
 - El nombre "cuestionarios" le pareció poco creativo. Eligió **Tiza** entre Tiza, Libreta,
   Repasito y Machete.
+
+### 2026-09-24 — primeros ajustes
+
+- Sumar un link a su GitHub (https://github.com/FlorianLucchini) en el header, al lado del
+  botón de modo día/noche.
+- **Sacar por ahora todo lo que es bibliografía** del sitio. El campo `references` del modelo
+  queda, opcional, para retomarlo más adelante.

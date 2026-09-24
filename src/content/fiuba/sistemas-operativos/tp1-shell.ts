@@ -14,12 +14,6 @@ export const tp1Shell: Quiz = {
     'Toda la teoría del TP1: exec, fork, redirecciones, pipes, variables de entorno, built-ins, procesos en segundo plano y señales.',
   context:
     'Incluye las 20 preguntas reales del parcialito del 1C2024 (mismo TP, respuestas corregidas por la cátedra) y preguntas generadas con IA para cubrir el resto del enunciado.',
-  references: [
-    { label: 'Enunciado del TP1 (fisop)', url: 'https://fisop.github.io/website/' },
-    { label: 'Esqueleto fisop/shell', url: 'https://github.com/fisop/shell' },
-    { label: 'man 7 signal-safety', url: 'https://man7.org/linux/man-pages/man7/signal-safety.7.html' },
-    { label: '[ARP] OSTEP cap. 5 — Process API', url: 'https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf' },
-  ],
   questions: [
     // ---------------------------------------------------------------------
     // Real questions — Parcialito TP1, 1C2024 (graded form, answers from staff)

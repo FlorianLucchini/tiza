@@ -3,6 +3,18 @@
 Una entrada por decisión, la más nueva arriba. Formato: qué se decidió, por qué, y qué alternativa
 se descartó.
 
+## 2026-10-20 — Preguntas reales sin corregir: respuesta por criterio técnico
+
+- **Qué**: en el parcialito TP2 2022a (copia del alumno, sin corrección), la respuesta cargada es la
+  técnicamente correcta según el esqueleto de JOS y el manual de x86, no necesariamente la que marcó
+  el alumno. Si difieren, la explicación lo dice. Siguen con `answerVerified: false`. Las preguntas
+  con dos respuestas defendibles o que dependían de la implementación de aquel TP (tablas de
+  registros, `SETGATE` con `KERNBASE`, "implementación final del TP2", binarios concatenados) no
+  se cargaron.
+- **Por qué**: en 3 de las preguntas cargadas, lo marcado por el alumno es probablemente incorrecto; cargarlo como
+  respuesta enseñaría un error.
+- **Descartado**: transcribir siempre la marca del alumno.
+
 ## 2026-09-24 — Stack inicial: Vite + React + TypeScript, sitio estático
 
 - **Qué**: SPA estática con Vite, React 19 y TypeScript. Ruteo con `HashRouter` de

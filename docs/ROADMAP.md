@@ -13,9 +13,10 @@ Fases por relevancia, sin estimaciones. Lo que ya está hecho se tacha y se muev
 
 ## Fase 1 — Más contenido, mismo formato
 
-- Parcialito **TP2 (sched)** y **TP3 (fs)** de Sistemas Operativos. Material disponible en la
-  bóveda (`Teoria/Parciales/Parcialitos/`): el TP3 de 1C2023 está corregido; el TP2 de 2022 es de
-  otro TP (kernel/JOS) y **no** está corregido → cargarlo con `answerVerified: false`.
+- [x] Parcialito **TP2 (sched)** (2026-10-20): 15 preguntas reales del parcialito 2022a (TP de
+      kernel sobre JOS, sin corregir) + 54 con IA sobre el enunciado y el esqueleto actuales.
+- Parcialito **TP3 (fs)** de Sistemas Operativos. Material en la bóveda
+  (`Teoria/Parciales/Parcialitos/`): el de 1C2023 está corregido y es del mismo TP.
 - Cuestionarios por **unidad teórica** (kernel, procesos, scheduling, memoria, concurrencia,
   filesystems) para el parcial del 27-28/10.
 - Otras materias de Florian: Paradigmas, Modelación Numérica.

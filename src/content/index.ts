@@ -1,5 +1,6 @@
 import type { Quiz, Subject } from './types'
 import { tp1Shell } from './fiuba/sistemas-operativos/tp1-shell'
+import { tp2Sched } from './fiuba/sistemas-operativos/tp2-sched'
 
 export const subjects: Subject[] = [
   {
@@ -9,7 +10,7 @@ export const subjects: Subject[] = [
     institution: 'FIUBA',
     career: 'Ingeniería en Informática',
     description: 'Kernel, procesos, scheduling, memoria, concurrencia y filesystems. Cátedra FISOP.',
-    quizzes: [tp1Shell],
+    quizzes: [tp1Shell, tp2Sched],
   },
 ]
 

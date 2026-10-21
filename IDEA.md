@@ -58,3 +58,9 @@ Principios que salen de lo que pidió Florian:
   botón de modo día/noche.
 - **Sacar por ahora todo lo que es bibliografía** del sitio. El campo `references` del modelo
   queda, opcional, para retomarlo más adelante.
+
+### 2026-10-20 — parcialito TP2
+
+- Preparar Tiza para el **parcialito del TP2 (sched)** de Sistemas Operativos, el viernes 23/10,
+  **de la misma forma que el del TP1**: preguntas reales más preguntas con IA que cubran toda la
+  teoría del TP.

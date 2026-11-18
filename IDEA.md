@@ -64,3 +64,9 @@ Principios que salen de lo que pidió Florian:
 - Preparar Tiza para el **parcialito del TP2 (sched)** de Sistemas Operativos, el viernes 23/10,
   **de la misma forma que el del TP1**: preguntas reales más preguntas con IA que cubran toda la
   teoría del TP.
+
+### 2026-11-17 — parcialito TP3
+
+- Armar el cuestionario del **parcialito del TP3 (fs)** de Sistemas Operativos, el viernes 20/11,
+  **como los dos anteriores**: preguntas reales más preguntas con IA que cubran toda la teoría del TP.
+- El material de estudio del parcialito va en Tiza, no en la guía del TP que se comparte con el grupo.

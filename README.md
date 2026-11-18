@@ -12,6 +12,7 @@ está marcado cuál es cuál.
 |---|---|---|
 | Sistemas Operativos (FIUBA) | Parcialito TP1 — Shell | 20 reales (1C2024) + 43 con IA |
 | Sistemas Operativos (FIUBA) | Parcialito TP2 — Sched | 15 reales (2022a, sin corregir) + 54 con IA |
+| Sistemas Operativos (FIUBA) | Parcialito TP3 — Filesystem | 10 reales (1C2023, corregidas) + 53 con IA |
 
 ## Desarrollo
 
